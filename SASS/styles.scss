@@ -1,6 +1,7 @@
 $green-color: rgb(8, 247, 235);
 $hover-color:rgb(197, 138, 21);
 $dark-color: rgb(68, 68, 68);
+$lighten: lighten( $dark-color, 50% );
 
 body{
     font-family: 'Source Sans Pro', sans-serif;
@@ -67,7 +68,7 @@ body{
     }
 
     .gallery{
-        .col{
+       img{
             &:hover{
                 background-color: $green-color;
             }
@@ -82,5 +83,19 @@ body{
                     color: white;
                 }
             }
-        }       
+        }
+       
+     .navigation{
+         background-color: rgba(255, 255, 255, 0.808);
+     }   
 }
+
+    .about{
+        //background-image: url("pictures/pic7.jpg")!important ;
+        background-color: $lighten;
+        color: $dark-color;
+            p{
+                color: white;
+            }
+    }
+
