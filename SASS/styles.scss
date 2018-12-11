@@ -6,96 +6,91 @@ $lighten: lighten( $dark-color, 50% );
 body{
     font-family: 'Source Sans Pro', sans-serif;
 
-    .black-line{
+        .black-line{
 
-        background-color: $dark-color;
+            background-color: $dark-color;
 
-        .row{
-            height: 45px;
-        }
+            .row{
+                height: 45px;
 
-        a{
-            color: $green-color;
-            margin-right: 10px;
+                a{
+                    color: $green-color;
+                    margin-right: 10px;
 
-            &:hover{
-                color:$hover-color!important;
-            }
-        }
-    }
+                    &:hover{
+                        color:$hover-color!important;
+                    }
 
-    .nav-link{
-        &:hover{
-            color: $hover-color!important;
-        }
-    }  
+                    .fas, .fab{
+                        color: $green-color;
+                        font-size: 1em;
 
-    .dropdown-item{
-            &:hover{
-                background-color: rgb(230, 230, 230);
-            }
-        }
+                        &:hover{
+                            color:$hover-color!important;
+                        }
+                    }
+                }
+            }   
+        };
 
-    .green-line{
-        border-bottom: 1px solid $green-color;
-    }
+        .navigation{
+            background-color: rgba(255, 255, 255, 0.808);
 
-    .black-box{
-        background-color: $dark-color;
+                .nav-link{
+                    &:hover{
+                        color: $hover-color!important;
+                    }
+                };  
 
-        p{
-            color: rgb(177, 177, 177);
-            font-size: 0.8em;
-        }
-        h4{
-            color: $green-color;
-        }
+                .dropdown-item{
+                        &:hover{
+                            background-color: rgb(230, 230, 230);
+                        }
+                };
+        };
 
-        h6{
-            color: white;
-        }
-        .fas{
-            font-size: 1.5em;
-        }
-    }
+        .green-line{
+            border-bottom: 1px solid $green-color;
+        };
 
-    .fas, .fab{
-        color: $green-color;
-        font-size: 1em;
-        &:hover{
-            color: $hover-color;
-        }
-    }
+        .black-box{
+            background-color: $dark-color;
 
-    .gallery{
-       img{
-            &:hover{
-                background-color: $green-color;
-            }
-        }
-    }
+                p{
+                    color: rgb(177, 177, 177);
+                    font-size: 0.8em;
+                }
+                h4, h5{
+                    color: $green-color;
+                }
 
-    .card-body{
-        background-color: rgb(100, 100, 100);
-
-            form{
-                label{
+                h6{
                     color: white;
                 }
-            }
-        }
-       
-     .navigation{
-         background-color: rgba(255, 255, 255, 0.808);
-     }   
-}
+                .fas{
+                    font-size: 1.5em;
+                }
+        };
 
-    .about{
 
-        background-color: $lighten;
-        color: $dark-color;
-            p{
-                color: white;
-            }
-    }
+        .card-body{
+            background-color: rgb(100, 100, 100);
 
+                form{
+                    label{
+                        color: white;
+                    }
+                }
+            };
+        
+
+        .about{
+
+            background-color: $lighten;
+            color: $dark-color;
+                p{
+                    color: white;
+                }  
+        };
+
+    };
