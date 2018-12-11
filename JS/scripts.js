@@ -39,20 +39,14 @@ $('#info3').hide();
 
 
 $('#btn1').click(function(){
-    $('#info1').fadeIn(500);
-}).dblclick(function(){
-    $('#info1').hide();
+    $('#info1').toggle();
 });
 
 $('#btn2').click(function(){
-    $('#info2').fadeIn(500);
-}).dblclick(function(){
-    $('#info2').hide();
+    $('#info2').toggle();
 });
 
 $('#btn3').click(function(){
-    $('#info3').fadeIn(500);
-}).dblclick(function(){
-    $('#info3').hide();
+    $('#info3').toggle();
 });
 
