@@ -11,7 +11,6 @@ body{
             background-color: $dark-color;
 
             .row{
-                height: 45px;
 
                 a{
                     color: $green-color;
@@ -37,9 +36,12 @@ body{
             background-color: rgba(255, 255, 255, 0.808);
 
                 .nav-link{
-                    &:hover{
-                        color: $hover-color!important;
-                    }
+
+                    color: $dark-color;
+
+                        &:hover{
+                            color: $hover-color!important;
+                        }
                 };  
 
                 .dropdown-item{
@@ -72,7 +74,6 @@ body{
                 }
         };
 
-
         .card-body{
             background-color: rgb(100, 100, 100);
 
@@ -83,7 +84,6 @@ body{
                 }
             };
         
-
         .about{
 
             background-color: $lighten;
