@@ -9,68 +9,67 @@
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700" rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css">
 
-
         <title>Baigiamasis projektas</title>
   </head>
   <body>
-        <section class="container-fluid black-line green-line sticky-top">
+        <header class="container-fluid black-line green-line sticky-top">
             <div class="container"> 
                 <div class="row">
                     <div class="col d-flex align-items-center">
-                        <a href="#"><i class="fas fa-mobile-alt"></i> +370 7772381</a>
+                        <a href="#">+370 7772381</a>
                     </div>
                     <div class="col d-flex justify-content-end align-items-center">
-                        <a class="scroll" href="#pradinis"><i class="fas fa-home"></i></a> 
+                        <a class="scroll" href="#homePage"><i class="fas fa-home"></i></a> 
                         <a href="#"><i class="fab fa-facebook"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>    
             </div>   
-        </section>
-        <section class="container-fluid navigation" id="pradinis">
+        </header>
+        <nav class="container-fluid navigation" id="homePage">
             <div class="container">
                 <div class="row">
                     <div class="col-4">
                         <img src="http://julie-fraser.co.uk/wp-content/uploads/pp/images/logo_1499692452.png" width="100%">
                     </div>
                     <div class="col-8 d-flex align-items-center justify-content-end">
-                        <nav class="navbar navbar-expand-md navbar-light">
+                        <div class="navbar navbar-expand-md navbar-light">
                             <div>
-                                <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sandwich" aria-controls="sandwich" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span></button>
                             </div>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="collapse navbar-collapse" id="sandwich">
                                 <li class="nav-item list-unstyled">
-                                    <a class="nav-link p-2 text-dark scroll" href="#apieMus">APIE MUS</a>
+                                    <a class="nav-link p-2 text-dark scroll" href="#aboutUs">APIE MUS</a>
                                 </li>
                                 <li class="nav-item list-unstyled">
-                                    <a class="nav-link p-2 text-dark scroll" href="#paslaugos">PASLAUGOS</a>
+                                    <a class="nav-link p-2 text-dark scroll" href="#service">PASLAUGOS</a>
                                 </li>
                                 <li class="nav-item dropdown scroll list-unstyled">
                                     <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">GALERIJA</a>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item scroll" href="#galerija">Vestuvės</a>
-                                        <a class="dropdown-item scroll" href="#galerija">Kūdikiai</a>
-                                        <a class="dropdown-item scroll" href="#galerija">Krikštynos</a>
-                                        <a class="dropdown-item scroll" href="#galerija">Asmeninės fotosesijos</a>
-                                        <a class="dropdown-item scroll" href="#galerija">Interjerai</a>
+                                        <a class="dropdown-item scroll" href="#gallery">Vestuvės</a>
+                                        <a class="dropdown-item scroll" href="#gallery">Kūdikiai</a>
+                                        <a class="dropdown-item scroll" href="#gallery">Krikštynos</a>
+                                        <a class="dropdown-item scroll" href="#gallery">Asmeninės fotosesijos</a>
+                                        <a class="dropdown-item scroll" href="#gallery">Interjerai</a>
                                     </div>
                                 </li>
                                 <li class="nav-item list-unstyled" data-toggle="modal" data-target="#form">
-                                    <a class="nav-link p-2 text-dark scroll" href="#kontaktai">KAINOS</a>
+                                    <a class="nav-link p-2 text-dark scroll" href="#contacts">KAINOS</a>
                                 </li>
                                 <li class="nav-item list-unstyled">
-                                    <a class="nav-link p-2 text-dark scroll" href="#kontaktai">KONTAKTAI</a>
+                                    <a class="nav-link p-2 text-dark scroll" href="#contacts">KONTAKTAI</a>
                                 </li>
-                            </div>    
-                        </nav>
+                            </ul>    
+                        </div>
                     </div>
                 </div> 
             </div>     
-        </section>   
+        </nav>   
         <section class="green-line">
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="d-block w-100" src="pictures/pic1.jpg" alt="">
@@ -82,23 +81,19 @@
                         <img class="d-block w-100" src="pictures/pic8.jpg" alt="">
                     </div>
                 </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </section>
-        <section class="black-box container-fluid" id="paslaugos">
+        <section class="black-box container-fluid" id="service">
             <div class="container text-center py-5">
-                <div class="row mb-5">
-                    <div class="col">
-                        <h4>PASLAUGOS</h4>
-                    </div>
-                </div>
+                <h4 class="mb-5">PASLAUGOS</h4>
                 <div class="row">
                     <div class="col-md-4 px-5 mb-4">
                         <div>
@@ -142,64 +137,56 @@
                 </div>
             </div>
         </section>
-        <section class="container-fluid p-5 about green-line" id="apieMus">
+        <section class="container-fluid p-5 about green-line" id="aboutUs">
             <div class="row">
                 <div class="col-md-6 pr-5">
-                    <div class="text-center mb-3">
-                        <h2>APIE MUS</h2>
-                    </div>
-                    <div>
-                        <p>In massa tempor nec feugiat nisl pretium. Tincidunt lobortis feugiat vivamus at augue eget arcu. Duis ultricies lacus sed turpis. Eu augue ut lectus arcu bibendum at. At elementum eu facilisis sed odio morbi. Faucibus scelerisque eleifend donec pretium vulputate sapien nec. Nunc consequat interdum varius sit amet mattis. In cursus turpis massa tincidunt dui ut ornare lectus. Adipiscing vitae proin sagittis nisl. Venenatis cras sed felis eget velit.</p>
-                        <p>Egestas sed sed risus pretium quam vulputate. Nam libero justo laoreet sit amet cursus sit. Id leo in vitae turpis. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Mi bibendum neque egestas congue quisque egestas diam.</p>
-                        <h5>Pasiekimai</h5>
-                        <p>In massa tempor nec feugiat nisl pretium. Tincidunt lobortis feugiat vivamus at augue eget arcu. Duis ultricies lacus sed turpis. Eu augue ut lectus arcu bibendum at. At elementum eu facilisis sed odio morbi. Faucibus scelerisque eleifend donec pretium vulputate sapien nec. Nunc consequat interdum varius sit amet mattis. In cursus turpis massa tincidunt dui ut ornare lectus. Adipiscing vitae proin sagittis nisl. Venenatis cras sed felis eget velit.</p>
-                        <p>Feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem est, pharetra ac bibendum porta, gravida a dolor. Vivamus a urna at magna auctor sagittis eu id libero.Egestas sed sed risus pretium quam vulputate. Nam libero justo laoreet sit amet cursus sit. Id leo in vitae turpis. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Mi bibendum neque egestas congue quisque egestas diam.</p>
-                        <h5>Kodėl rinktis mus?</h5>
-                        <p>In massa tempor nec feugiat nisl pretium. Tincidunt lobortis feugiat vivamus at augue eget arcu. Duis ultricies lacus sed turpis. Eu augue ut lectus arcu bibendum at. At elementum eu facilisis sed odio morbi. Faucibus scelerisque eleifend donec pretium vulputate sapien nec. Nunc consequat interdum varius sit amet mattis. In cursus turpis massa tincidunt dui ut ornare lectus. Adipiscing vitae proin sagittis nisl. Venenatis cras sed felis eget velit.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem est, pharetra ac bibendum porta, gravida a dolor. Vivamus a urna at magna auctor sagittis eu id libero.</p>
-                    </div>
+                    <h2 class="text-center">APIE MUS</h2>
+                    <p>In massa tempor nec feugiat nisl pretium. Tincidunt lobortis feugiat vivamus at augue eget arcu. Duis ultricies lacus sed turpis. Eu augue ut lectus arcu bibendum at. At elementum eu facilisis sed odio morbi. Faucibus scelerisque eleifend donec pretium vulputate sapien nec. Nunc consequat interdum varius sit amet mattis. In cursus turpis massa tincidunt dui ut ornare lectus. Adipiscing vitae proin sagittis nisl. Venenatis cras sed felis eget velit.</p>
+                    <p>Egestas sed sed risus pretium quam vulputate. Nam libero justo laoreet sit amet cursus sit. Id leo in vitae turpis. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Mi bibendum neque egestas congue quisque egestas diam.</p>
+                    <h5>Pasiekimai</h5>
+                    <p>In massa tempor nec feugiat nisl pretium. Tincidunt lobortis feugiat vivamus at augue eget arcu. Duis ultricies lacus sed turpis. Eu augue ut lectus arcu bibendum at. At elementum eu facilisis sed odio morbi. Faucibus scelerisque eleifend donec pretium vulputate sapien nec. Nunc consequat interdum varius sit amet mattis. In cursus turpis massa tincidunt dui ut ornare lectus. Adipiscing vitae proin sagittis nisl. Venenatis cras sed felis eget velit.</p>
+                    <p>Feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem est, pharetra ac bibendum porta, gravida a dolor. Vivamus a urna at magna auctor sagittis eu id libero.Egestas sed sed risus pretium quam vulputate. Nam libero justo laoreet sit amet cursus sit. Id leo in vitae turpis. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Mi bibendum neque egestas congue quisque egestas diam.</p>
+                    <h5>Kodėl rinktis mus?</h5>
+                    <p>In massa tempor nec feugiat nisl pretium. Tincidunt lobortis feugiat vivamus at augue eget arcu. Duis ultricies lacus sed turpis. Eu augue ut lectus arcu bibendum at. At elementum eu facilisis sed odio morbi. Faucibus scelerisque eleifend donec pretium vulputate sapien nec. Nunc consequat interdum varius sit amet mattis. In cursus turpis massa tincidunt dui ut ornare lectus. Adipiscing vitae proin sagittis nisl. Venenatis cras sed felis eget velit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem est, pharetra ac bibendum porta, gravida a dolor. Vivamus a urna at magna auctor sagittis eu id libero.</p>
                 </div>
                 <div class="col-6">
-                    <img src="https://vivafm.ro/wp-content/uploads/2018/11/fotograf.jpg" alt="" width="100%">
+                    <img class="w-100" src="https://vivafm.ro/wp-content/uploads/2018/11/fotograf.jpg" alt="">
                 </div>
             </div>
         </section>
-        <section class="container text-center pt-5 gallery" id="galerija">
+        <section class="container text-center pt-5" id="gallery">
             <hr>
             <h5>NAUJAUSI DARBAI</h5>
             <hr>
             <div class="row mt-5">
                 <div class="col-4">
                     <a href="pictures/pic3.jpg" data-fancybox="gallery">
-                        <img src="pictures/pic3.jpg" width="100%"></a>
+                        <img class="w-100" src="pictures/pic3.jpg"></a>
                 </div>
                 <div class="col-4">
                     <a href="pictures/pic2.jpg" data-fancybox="gallery">
-                        <img src="pictures/pic2.jpg" width="100%"></a>
+                        <img class="w-100" src="pictures/pic2.jpg"></a>
                 </div>
                 <div class="col-4">
                     <a href="pictures/pic4.jpg" data-fancybox="gallery">
-                        <img src="pictures/pic4.jpg" width="100%"></a>
+                        <img class="w-100" src="pictures/pic4.jpg"></a>
                 </div>
             </div>
             <div class="row mt-5">
                 <div class="col-6">
                     <a href="pictures/pic5.jpg" data-fancybox="gallery">
-                        <img src="pictures/pic5.jpg" width="100%"></a>
+                        <img class="w-100" src="pictures/pic5.jpg"></a>
                 </div>
                 <div class="col-6">
                     <a href="pictures/pic6.jpg" data-fancybox="gallery">
-                        <img src="pictures/pic6.jpg" width="100%"></a>
+                        <img class="w-100" src="pictures/pic6.jpg"></a>
                 </div>
             </div>
         </section>
-        <section class="black-box container-fluid green-line mt-5" id="kontaktai">
-            <div class="container py-5">
-                <div class="row">
-                    <div class="col d-flex justify-content-center mb-3">
-                        <h4>KONTAKTAI</h4>
-                    </div>
-                </div>
+        <section class="black-box container-fluid green-line mt-5" id="contacts">
+            <div class="container py-4">
+                <h4 class="text-center mb-4">KONTAKTAI</h4>
                 <div class="row">
                     <div class="col-md-6">
                         <h5>Paslaugų kainos priklauso nuo konkretaus projekto, žinutės langelyje trumpai apibūdinkite norimą projektą ir mes su jumis susisieksime artimiausiu metu.</h5>
@@ -227,13 +214,10 @@
                 </div>     
             </div>                
         </section>
-        <section class="black-box container-fluid">
-            <div class="row pt-5">
-                <div class="col d-flex justify-content-center mt-3">
-                    <p><i class="far fa-copyright"></i> Akvilės Projektai 2018</p>
-                </div>
-            </div>  
-        </section>
+        <footer class="black-box container-fluid py-5 text-center">
+            <p class="align-middle m-0"><i class="far fa-copyright"></i> Akvilės Projektai 2018</p> 
+        </footer>
+        <!--Modal for form alert message-->
         <div class="modal" tabindex="-1" role="dialog" id="alertMessage">
             <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
                 <div class="modal-content">
@@ -253,8 +237,6 @@
             </div>
         </div>
         
-
-
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
