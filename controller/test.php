@@ -1,3 +1,3 @@
 <?php
 
-$test = 'labas';
+$test = 'nelabas';
